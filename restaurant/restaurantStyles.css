@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+    margin: auto;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desc {
+    margin-left:250px;
+    margin-right:250px;
+}
+ #navbar li {
+    display: inline;
+    border: solid 2px black;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 4px;
+    font-size: 20px;
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 4px;
+    border-radius: 30px;
+    text-decoration: none;
+    line-height: 2em;
+    border: solid 2px greenyellow
+    margin: 10px;
+    
+}
+
+#footer {
+    text-align: center;
+}
+
+

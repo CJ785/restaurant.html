@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Crabby's Seafood Kitchen</title>
+
+        <style>
+            #form {
+                text-align: left; margin: auto;
+            }
+            #textbox {
+                display: inline-block;
+            }
+            #radiobtn {
+                text-align: center;
+            }
+
+        </style>
+        <link href="restaurantStyles.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </head>
+    <body>
+        <div>
+            <h1>Crabby's Seafood Kitchen</h1>
+            <hr>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurantMenu.html">Menu</a></li>
+                <li><a href="restaurantContact.html">Contact Us</a></li>
+
+            </ul>
+            <hr>
+
+                <div>
+                    <table id="form">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="firstName" /></td>                    
+                    </tr>                    
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><input type="text" id="address" name="address"/></td>                        
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" id="email" name="telephone"/></td>        
+                    </tr>
+                    <tr>
+                        <td><label for="tel">Phone:</label></td>
+                        <td><input type="email" id="tel" name="emailAddress"/></td>              
+                    </tr>
+                    <tr>
+                        <td><label>Reason for inquiry:</label></td>  
+                        <td><select name="dropDownMenu" style= "width: 173px">
+                            <option value="Value1">Catering</option>
+                            <option value="Value2">Private party</option>
+                            <option value="Value3">Feedback</option>
+                            <option value="Value4">Other</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Additional information:</label></td>
+                        <td><textarea style="width: 167px" cols="20" rows="6"></textarea></td>
+                    <tr>   
+                        <td><label>Have you been to the restaurant?</label></td>
+                        <td id="radiobtn"><input type="radio" name="yes" value="yes">Yes 
+                            <input type="radio" name="no" value="no">No<br/></td>        
+                    </tr> 
+                    <tr>  
+                        <td><label>Best days to contact you:</label></td>
+                        <td>    
+                            M<input type="checkbox" name="Monday" value="Yes">
+                            T<input type="checkbox" name="Tuesday" value="Yes">
+                            W<input type="checkbox" name="Wednesday" value="Yes">
+                            Th<input type="checkbox" name="Thursday" value="Yes">
+                            F<input type="checkbox" name="Friday" value="Yes">
+                        </td>
+                    </tr>       
+                    </table>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+        
+                </div>
+        <hr>
+        <div id="footer"><b>
+            555 Marina Dr. Harker's Island NC 28531<br> 800-555-5555</b>
+        </div>
+    </body>
+</html>
