@@ -16,34 +16,97 @@ body {
     margin-left:250px;
     margin-right:250px;
 }
+
  #navbar li {
+    list-style-type: none;
     display: inline;
-    border: solid 2px black;
-    margin: 10px;
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 4px;
-    font-size: 20px;
-    color: black;
-    background-color: grey;
-    text-decoration: none;
-    line-height: 2em;
 }
 
-#navbar ul li a:hover {
-    background-color: white;
+#navbar li a {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: yellow;
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 10px;
+
+    font-weight: normal;
+    width: 30px;
+}
+
+#navbar a:link {
+    background-color: greenyellow;
+    color: black;
+}
+
+#navbar a:visited {
+    background-color: dodgerblue;
+    color: green;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: yellow;
     color: black;
     padding: 4px;
+    border: solid 1px blue;
     border-radius: 30px;
-    text-decoration: none;
-    line-height: 2em;
-    border: solid 2px greenyellow
-    margin: 10px;
-    
+    font-weight: 600;
 }
+
+#navbar a:active {
+    text-decoration: none;
+}
+
 
 #footer {
     text-align: center;
+}
+
+.menu {
+    padding: 3px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.menu th td {
+    border: 1px black;
+    border: outset;
+    border-collapse: collapse;
+    width: 200px;
+
+}
+
+.menu th {
+    color: maroon;
+    border-collapse: collapse;
+ 
+}
+
+#beverages {
+    column-span: 2;
+}
+
+#bev {
+    width: 500px;
+    margin-left: 33%;
+    width: 33%;
+    text-align: left;
+}
+
+tbody td {
+    border: 1px black;
+    border: outset;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    color: maroon;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
 
